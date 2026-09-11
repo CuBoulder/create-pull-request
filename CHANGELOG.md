@@ -7,58 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.4.0] - 2024-05-06
+## [1.0.0] - 2024-05-06
 
 ### Changed
 
-- Execute action using `node20` instead of `node16` which is now deprecated.
-
-## [1.3.1] - 2023-06-28
-
-### Fixed
-
-- Deprecation warning for `set-output` command from `actions/core` dependency.
-
-## [1.3.0] - 2022-12-12
-
-### Added
-
-- Support for adding team reviewers by setting `team_reviewers`
-- Support for adding assignees by setting `assignees`
-
-### Changed
-
-- Execute action using `node16` instead of `node12` which is now deprecated.
-
-## [1.2.0] - 2021-07-26
-
-### Added
-
-- Support for adding labels by setting `labels`
-- Check for existing pull request and `created` action output
-
-## [1.1.0] - 2021-06-16
-
-### Added
-
-- Git hook to make sure we always run `yarn build` before committing any Typescript changes. This should prevent dist/index.js from getting out of date.
-- Support for setting a proxy using the `HTTPS_PROXY` environment variable
-- Support for GitHub Enterprise by reading `process.env.GITHUB_REPOSITORY`
-
-### Fixed
-
-- action.yml suggested to use `github-token` as the input where as in reality, we are looking for an input `github_token` (note the underscore!)
-
-## [1.0.0] - 2020-02-15
-
-### Added
-
-- Initial release!
-
-[Unreleased]: https://github.com/thomaseizinger/create-pull-request/compare/1.4.0...HEAD
-[1.4.0]: https://github.com/thomaseizinger/create-pull-request/compare/1.3.1...1.4.0
-[1.3.1]: https://github.com/thomaseizinger/create-pull-request/compare/1.3.0...1.3.1
-[1.3.0]: https://github.com/thomaseizinger/create-pull-request/compare/1.2.0...1.3.0
-[1.2.0]: https://github.com/thomaseizinger/create-pull-request/compare/1.1.0...1.2.0
-[1.1.0]: https://github.com/thomaseizinger/create-pull-request/compare/1.0.0...1.1.0
-[1.0.0]: https://github.com/thomaseizinger/create-pull-request/compare/92284b92aff90f2100e022ed93d6e485240e8a36...1.0.0
+- Execute action using `node24` instead of `node20` which is now deprecated.
+- Forked
